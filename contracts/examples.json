@@ -1,0 +1,39 @@
+{
+  "telemetry": {
+    "esp32-03": {
+      "deviceId": "esp32-03",
+      "ts": 1767803372,
+      "seq": 12487,
+      "tempC": 21.39,
+      "humPct": 41.4,
+      "batteryPct": 50,
+      "tempUnit": "F",
+      "tempValue": 70.51
+    }
+  },
+  "events": {
+    "esp32-03": {
+      "deviceId": "esp32-03",
+      "event": "button_pressed",
+      "ts": 1767803375,
+      "data": { "button": "A", "duration": 250 }
+    }
+  },
+  "cmd": {
+    "esp32-03": {
+      "deviceId": "esp32-03",
+      "cmd": "led_toggle",
+      "param": { "led": 1 }
+    }
+  },
+  "status": {
+    "esp32-03": {
+      "deviceId": "esp32-03",
+      "status": "online",
+      "uptime": 86400,
+      "freeHeap": 45216,
+      "rssi": -65,
+      "ts": 1767803372
+    }
+  }
+}
